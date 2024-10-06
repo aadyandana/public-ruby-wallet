@@ -18,7 +18,7 @@ class SessionController < ApplicationController
   end
 
   private
-  
+
   def get_token_params
     params.require(:id)
   end
