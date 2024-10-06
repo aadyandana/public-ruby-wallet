@@ -13,7 +13,8 @@ module Externals
               symbol: params[:symbol],
               company_name: params[:company_name],
               industry: params[:industry],
-              isin: params[:isin]
+              isin: params[:isin],
+              sort: params[:sort]
             }
           end
 

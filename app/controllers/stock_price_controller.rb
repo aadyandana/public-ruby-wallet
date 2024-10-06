@@ -19,7 +19,7 @@ class StockPriceController < ApplicationController
   end
 
   def price_all
-    stocks = PriceAllService.new.call
+    stocks = PriceAllService.new(params).call
 
     standard_response(stocks)
   end
